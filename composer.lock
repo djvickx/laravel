@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9b7a1dc1dd923105198c572cc7df8d",
+    "content-hash": "96525d601130d42265423af1d1942675",
     "packages": [
+        {
+            "name": "abyan/tradinglibraries",
+            "version": "1.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/manafateam/trading-packages.git",
+                "reference": "dd011e63386fec44c8fa27609e59556524349945"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/manafateam/trading-packages/get/dd011e63386fec44c8fa27609e59556524349945.zip",
+                "reference": "dd011e63386fec44c8fa27609e59556524349945",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "type": "laravel",
+            "autoload": {
+                "psr-4": {
+                    "Abyan\\TradingLibraries\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "asim sarwar",
+                    "email": "asim.sarwar@manafatech.com"
+                }
+            ],
+            "description": "Abyan Trading internal libraries like migrations, models etc.",
+            "homepage": "https://bitbucket.org/manafateam/trading-packages",
+            "support": {
+                "source": "https://bitbucket.org/manafateam/trading-packages/src/dd011e63386fec44c8fa27609e59556524349945/?at=v1.0.15"
+            },
+            "time": "2024-04-25T08:33:24+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
