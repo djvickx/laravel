@@ -1,0 +1,23 @@
+{
+    "name": "waqas/firstpackage",
+    "description": "First package that will hold only migration files",
+    "autoload": {
+        "psr-4": {
+            "Waqas\\Firstpackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Waqas Kamal",
+            "email": "waqas@abyancapital.sa"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "devpackages\\firstpackage\\FirstPackageServiceProvider"
+            ]
+        }
+    }
+}
