@@ -1,6 +1,5 @@
 {
-    "name": "laravel/laravel",
-    "type": "project",
+    "name": "waqas/firstpackage",
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
