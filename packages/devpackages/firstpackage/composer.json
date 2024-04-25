@@ -8,13 +8,6 @@
             "Waqas\\Firstpackage\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "devpackages\\firstpackage\\FirstPackageServiceProvider"
-            ]
-        }
-    },
     "include": [
         "packages/devepackages/firstpackage/"
     ],
