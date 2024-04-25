@@ -1,23 +1,35 @@
 {
     "name": "waqas/firstpackage",
-    "description": "First package that will hold only migration files",
+    "description": "The skeleton application for the Laravel framework.",
+    "keywords": ["laravel", "framework"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Waqas\\Firstpackage\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Muhammad Waqas Kamal",
-            "email": "waqas@abyancapital.sa"
-        }
-    ],
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
                 "devpackages\\firstpackage\\FirstPackageServiceProvider"
             ]
         }
-    }
+    },
+    "include": [
+        "packages/devepackages/firstpackage/"
+    ],
+    "exclude-from-classmap": [
+        "tests/",
+        "resources/",
+        "database/",
+        "config/",
+        "routes/",
+        "bootstrap/",
+        "public/",
+        "storage/",
+        "vendor/",
+        "app"
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
